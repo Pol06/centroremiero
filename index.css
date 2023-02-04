@@ -3,6 +3,9 @@
     padding: 0;
     top: 0;
 }
+body {
+    background-color: white;
+}
 #menu {
     position: fixed;
     display: block;
@@ -129,7 +132,6 @@ div#finepag div a#tornainalto:hover {
     margin-left: 15%;
     margin-right: 15%;
     padding: 10px;
-    
     color: #0a3b72;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -160,7 +162,8 @@ div#finepag div a#tornainalto:hover {
     margin-right: 45%;
 }
 .tdrsocial {
-    border: 1px;
+    border-collapse: collapse;
+    border: 1px solid #0a3b72;
     padding: 50px;
     margin-left: 50px;
     margin-right: 50px;
@@ -169,4 +172,33 @@ div#finepag div a#tornainalto:hover {
 #instagram, #facebook {
     height: 30px;
     width: 30px;
+}
+.tdcontenuti {
+    border-collapse: collapse;
+    border: 10px solid white;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    background-color: #0a3b72;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    line-height: 50px;
+}
+td.tdcontenuti:hover {
+    background-color: #00b7ff;
+    
+}
+td.tdcontenuti:hover a{
+    color: #0a3b72;
+}
+.collegamentocontenuti {
+    text-decoration: none;
+    color: white;
+}
+.divcontenuti {
+    width: 300px;
+    line-height: 150px;
 }
