@@ -113,10 +113,6 @@ div#menu ul li ul.elencoelementimenu li.elementimenu a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
 }
-div#finepag div a#tornainalto:hover {
-    text-decoration: underline;
-    color: #00b7ff;
-}
 #logo {
     margin: 15px 20px 15px 0px;
     line-height: 100px;
@@ -157,16 +153,12 @@ div#finepag div a#tornainalto:hover {
     margin-left: 20%;
     margin-right: 20%;
 }
-#social {
-    margin-left: 45%;
-    margin-right: 45%;
-}
 .tdrsocial {
     border-collapse: collapse;
     border: 1px solid #0a3b72;
-    padding: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
     width: 30px;
 }
 #instagram, #facebook {
