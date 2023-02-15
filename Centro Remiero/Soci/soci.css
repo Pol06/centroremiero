@@ -1,0 +1,75 @@
+#titolo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0a3b72;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#imgsoci {
+    width: 100%;
+    margin: -200px 0px 200px 0px;    
+}
+.testo {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    color: #0a3b72;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.socio {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 200px;
+    max-height: 200px;
+}
+.divimg1 {
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    float: left;
+}
+.divimg2 {
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    float: right;
+}
+.stemmasoci {
+    height: 200px;
+    width: auto;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+.nomesocio {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0a3b72;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.infosoci {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0a3b72;
+    font-size: 15px;
+    text-align: center;
+}
+.tdrsoci {
+    line-height: 100px;
+    padding: 15px;
+    margin: 0px 15px 0px 15px;
+    border-collapse: collapse;
+    border: 1px solid white;
+    align-items: center;
+}
+.igsoci, .fbsoci, .websoci {
+    height: 30px;
+    width: 30px;
+}
+.hrsoci {
+    border-collapse: collapse;
+    border: 1px solid #0a3b72;
+    margin: 50px 25% 50px 25%;
+}
