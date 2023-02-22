@@ -1,0 +1,118 @@
+  @media screen and (min-width: 750px) {
+    img#imghome {
+      width: 100%;
+      height: auto;
+      margin: 0px;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    img#imghome {
+      width: auto;
+      height: 100%;
+      margin: 0px;
+    }
+  }
+  @media screen and (min-width:1000px){
+    img#imghome {
+        margin: -150px 0px 150px 0px;
+    }
+  }
+#sottotitolo {
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0a3b72;
+    text-align: center;
+}
+#citazione {
+    color: #0a3b72;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+  @media screen and (min-width: 1000px) {
+    div#citazione {
+      display: table;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    div#citazione p {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+    #imgcitazione {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 20px 30px 20px 0px;
+    }
+  }
+  @media screen and (max-width: 999px) {
+    div#citazione {
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    #imgcitazione {
+        width: 300px;
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+    }
+    div#citazione p {
+        display: block;
+        text-align: center;
+        margin: 0px 10% 0px 10%;
+    }
+  }
+#testo {
+    color: #0a3b72;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#titoloparagrafo {
+    padding: 10px;
+    color: #0a3b72;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+#testoparagrafo {
+    color: #0a3b72;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+@media screen and (min-width: 1000px) {
+    div#testo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      p#titoloparagrafo  {
+        margin-right: 30px;
+      }  
+      p#testoparagrafo {
+        margin-left: 30px;
+      }   
+  }
+  @media screen and (max-width: 999px) {
+    div#testo {
+      display: block;
+      margin: 0px 10% 0px 10%;
+    }
+    p#testoparagrafo {
+        display: block;
+        text-align: center;
+    }
+    p#titoloparagrafo {
+        display: block;
+        text-align: center;
+    }
+  }
